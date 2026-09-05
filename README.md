@@ -1,6 +1,6 @@
 # Mushroom LED Keyring
 
-> A keyring of LEDs arranged in a mushroom cap, switched on and off by a slide switch.
+> DIY mushroom LED keyring powered by CR2032 coin cells, with soldering notes, circuit diagrams, and a Tinkercad simulation.
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)][yt]
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white)][tt]
