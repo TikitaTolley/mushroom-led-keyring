@@ -20,7 +20,7 @@ Green and yellow LEDs laid out as a mushroom cap, running off coin cells with a 
 ## Simulated Circuit
 
 <p>
-  <a href="https://www.tinkercad.com/things/bni5gjmEZWk-mushroom-leds"><img src="media/tinkercad-mushroom-led.png" alt="Tinkercad breadboard layout of the mushroom LED circuit" width="400"></a>
+  <a href="https://www.tinkercad.com/things/bni5gjmEZWk-mushroom-leds"><img src="media/tinkercad-mushroom-led.png" alt="Tinkercad breadboard layout of the mushroom LED circuit" width="326"></a>
 </p>
 
 | Sim | Link | Notes |
