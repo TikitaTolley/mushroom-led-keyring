@@ -65,7 +65,7 @@ It's called the Jelly Babies (Leotia viscosa) mushroom.
   <a href="https://commons.wikimedia.org/wiki/File:Leotia_viscosa_539279562.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Leotia_viscosa_539279562.jpg" alt="Leotia viscosa, a green capped yellow stemmed mushroom" width="250"></a>
 </p>
 
-[Leotia viscosa][chicken-lips] by Alex Abair, [CC BY 4.0][cc-by].
+[Leotia viscosa][jelly-babies] by Alex Abair, [CC BY 4.0][cc-by].
 
 ## Licence
 
