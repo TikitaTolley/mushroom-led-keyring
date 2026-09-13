@@ -1,31 +1,23 @@
 # Mushroom LED Keyring
 
-> DIY mushroom LED keyring powered by CR2032 coin cells, with soldering notes, circuit diagrams, and a Tinkercad simulation.
+> Twelve LEDs, two coin cells and a switch, inside a 3D-printed mushroom keyring.
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)][yt]
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white)][tt]
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)][ig]
-[![Tinkercad](https://img.shields.io/badge/Tinkercad-simulate-1477D1?style=flat)][tinkercad]
 
 <p>
-  <img src="media/keyring-front.jpg" alt="Front of keyring" width="250">
-  <img src="media/keyring-front-lit.jpg" alt="Keyring lit up" width="250">
-  <img src="media/keyring-back.jpg" alt="Back of keyring" width="250">
+  <a href="media/mushroom-enclosure.webp"><img src="media/mushroom-enclosure.webp" alt="Mushroom LED keyring inside its white printed enclosure" width="150"></a>
+  <a href="media/keyring-front-lit.jpg"><img src="media/keyring-front-lit.jpg" alt="Keyring lit up" width="150"></a>
 </p>
 
 ## What it does
 
-Green and yellow LEDs laid out as a mushroom cap, running off coin cells with a slide switch for on/off. The LEDs go two in series behind a single resistor, and those six pairs sit in parallel across the rails, so they all light together and a dead LED only takes its own pair out.
+Eight green LEDs form the cap and four yellow LEDs form the stem. Slide the switch to light all twelve. No code or microcontroller is needed.
 
-## Simulated Circuit
+## Circuit
 
-<p>
-  <a href="https://www.tinkercad.com/things/bni5gjmEZWk-mushroom-leds"><img src="media/tinkercad-mushroom-led.png" alt="Tinkercad breadboard layout of the mushroom LED circuit" width="326"></a>
-</p>
-
-| Sim | Link | Notes |
-| --- | --- | --- |
-| Tinkercad | [Open][tinkercad] | Breadboard version of the circuit, 14 LEDs (10 red, 4 yellow) |
+![Six parallel branches, each with a 1 kΩ resistor and two LEDs, powered by two CR2032 cells in series](media/circuit.svg)
 
 ## Bill of materials
 
@@ -33,17 +25,18 @@ Green and yellow LEDs laid out as a mushroom cap, running off coin cells with a 
 | --- | --- | --- | --- | --- |
 | 2 | Coin cell | CR2032 3 V | £0.60 | Wired in series for 6 V |
 | 2 | Battery holder | CR2032 holder | £0.40 | Or one 2-cell holder |
-| 1 | Slide switch | SPDT | TBD | On/off, in the positive line |
+| 1 | Slide switch | SPDT | Not recorded | On/off, in the positive line |
 | 12 | LED | 5 mm | from kit | 8 green, 4 yellow |
 | 6 | Resistor | 1 kΩ | from kit | One per pair of LEDs |
-| 1 | Mini solderable breadboard | | £1.50 | |
+| 1 | Mini solderable breadboard | | £0.67 | Unit from 12-pack |
 | 1 | Keyring hardware | Split ring | £0.30 | |
+| 44.79 g | Printed enclosure | PLA | £1.57 total | Slicer estimate, including brims |
 
-**Total: £3.80** for the parts bought, plus the slide switch.
+**Recorded parts and enclosure: about £4.53**, excluding the switch and shared LED/resistor kit. Prices use per-part costs from purchased packs; PLA is £0.035/g.
 
 ## Wiring
 
-Two CR2032 cells in series give 6 V across the breadboard rails. The slide switch sits in the positive line, so it cuts power to everything. Each branch is one resistor and two LEDs in series, from the positive rail to ground, with the six branches in parallel.
+Two cells in series supply 6 V. The six LED pairs connect in parallel, with the switch in battery positive.
 
 | From | To | Notes |
 | --- | --- | --- |
@@ -56,10 +49,24 @@ Two CR2032 cells in series give 6 V across the breadboard rails. The slide switc
 | First LED cathode | Second LED anode | Two LEDs in series per branch |
 | Second LED cathode | - rail | |
 
-## Notes
+<a href="media/keyring-back.jpg"><img src="media/keyring-back.jpg" alt="Soldered connections on the back of the keyring" width="150"></a>
 
-Even though it doesn't look like a typical mushroom, there turns out to be a green cap and yellow stem mushroom out there!
-It's called the Jelly Babies (Leotia viscosa) mushroom.
+## Assembly
+
+1. Fit the LEDs to the shell openings: eight green in the cap, four yellow in the stem.
+2. Solder six branches, each with a 1 kΩ resistor and two LEDs in series.
+3. Connect the branches across the rails; wire the switch into battery positive.
+4. Check polarity and continuity before fitting the cells, then close the rear cover.
+
+## Printed enclosure
+
+[Download the shell and rear cover](print/mushroom-enclosure.3mf).
+
+Bambu Lab P1S, 0.4 mm nozzle, PLA, 0.2 mm layers, two walls, 15% infill. Shell LED-face down; cover exterior down. The project includes 3 mm brims and no supports. Check your printer profile and re-slice.
+
+## Mushroom inspiration
+
+The green cap and yellow stem resemble the Jelly Babies mushroom, *Leotia viscosa*.
 
 <p>
   <a href="https://commons.wikimedia.org/wiki/File:Leotia_viscosa_539279562.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Leotia_viscosa_539279562.jpg" alt="Leotia viscosa, a green capped yellow stemmed mushroom" width="250"></a>
@@ -67,13 +74,20 @@ It's called the Jelly Babies (Leotia viscosa) mushroom.
 
 [Leotia viscosa][jelly-babies] by Alex Abair, [CC BY 4.0][cc-by].
 
+## This project elsewhere
+
+| Where | Link |
+| --- | --- |
+| Portfolio | [Project page](https://tikitatech.xyz/projects/mushroom-led-keyring/) |
+| YouTube | [Watch the build][yt-1] |
+| TikTok | [Watch the build][tt-1] |
+| Instagram | [Watch the build][ig-1] |
+
 ## Licence
 
-MIT, see [LICENSE](LICENSE).
+[MIT](LICENSE).
 
----
-
-This build on [YouTube][yt-1] · [TikTok][tt-1] · [Instagram][ig-1]. All projects at [github.com/TikitaTolley][gh].
+All projects at [github.com/TikitaTolley][gh].
 
 [yt]: https://youtube.com/@tikitatech
 [tt]: https://tiktok.com/@tikitatech
@@ -83,7 +97,6 @@ This build on [YouTube][yt-1] · [TikTok][tt-1] · [Instagram][ig-1]. All projec
 [yt-1]: https://www.youtube.com/shorts/RpJ-dfvH-7w
 [tt-1]: https://www.tiktok.com/@tikitatech/video/7672160859707247894
 [ig-1]: https://www.instagram.com/reel/Db1ftWJq4Ef/
-[tinkercad]: https://www.tinkercad.com/things/bni5gjmEZWk-mushroom-leds
 
 [jelly-babies]: https://commons.wikimedia.org/wiki/File:Leotia_viscosa_539279562.jpg
 [cc-by]: https://creativecommons.org/licenses/by/4.0/
