@@ -19,3 +19,33 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+LICENSING BY MATERIAL
+
+Software and firmware
+
+For the purposes of the MIT License above, "Software" means any source code or
+firmware in this repository. It does not include the build documentation,
+photographs, diagrams, CAD, or 3D models.
+
+Original TikitaTech designs and documentation
+
+The original build documentation, circuit diagram, photographs, CAD, and 3D
+models created by Tikita Tolley are licensed under Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0):
+
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+This includes `print/mushroom-enclosure.3mf`, `media/circuit.svg`, and the
+original project photographs in `media/`.
+
+Third-party reference photograph
+
+The Leotia viscosa reference photograph linked from the README is by Alex
+Abair and is licensed under Creative Commons Attribution 4.0 International
+(CC BY 4.0). It is not covered by the TikitaTech licence:
+
+  https://commons.wikimedia.org/wiki/File:Leotia_viscosa_539279562.jpg
+  https://creativecommons.org/licenses/by/4.0/

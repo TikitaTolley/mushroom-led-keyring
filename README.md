@@ -2,6 +2,9 @@
 
 > Twelve LEDs, two coin cells and a switch, inside a 3D-printed mushroom keyring.
 
+The original circuit began as an early soldering project. I later designed and printed the enclosure
+for Liverpool MakeFest 2026.
+
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)][yt]
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white)][tt]
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)][ig]
@@ -18,6 +21,8 @@ Eight green LEDs form the cap and four yellow LEDs form the stem. Slide the swit
 ## Circuit
 
 ![Six parallel branches, each with a 1 kΩ resistor and two LEDs, powered by two CR2032 cells in series](media/circuit.svg)
+
+[Open the circuit in Tinkercad][tinkercad].
 
 ## Bill of materials
 
@@ -64,6 +69,8 @@ Two cells in series supply 6 V. The six LED pairs connect in parallel, with the 
 
 Bambu Lab P1S, 0.4 mm nozzle, PLA, 0.2 mm layers, two walls, 15% infill. Shell LED-face down; cover exterior down. The project includes 3 mm brims and no supports. Check your printer profile and re-slice.
 
+The [Onshape source document][onshape] contains the enclosure design history and named revisions.
+
 ## Mushroom inspiration
 
 The green cap and yellow stem resemble the Jelly Babies mushroom, *Leotia viscosa*.
@@ -76,16 +83,22 @@ The green cap and yellow stem resemble the Jelly Babies mushroom, *Leotia viscos
 
 ## This project elsewhere
 
-| Where | Link |
-| --- | --- |
-| Portfolio | [Project page](https://tikitatech.xyz/projects/mushroom-led-keyring/) |
-| YouTube | [Watch the build][yt-1] |
-| TikTok | [Watch the build][tt-1] |
-| Instagram | [Watch the build][ig-1] |
+| Where | Link | What is there |
+| --- | --- | --- |
+| Portfolio | [Read the project page][portfolio] | Full build overview |
+| Tinkercad | [Open the circuit][tinkercad] | Original circuit design |
+| Onshape | [Open the enclosure source][onshape] | Enclosure design history and named revisions |
+| YouTube | [Watch the build][yt-1] | Original soldering build |
+| TikTok | [Watch the build][tt-1] | Original soldering build |
+| Instagram | [Watch the build][ig-1] | Original soldering build |
 
-## Licence
+## Licences
 
-[MIT](LICENSE).
+- Software and firmware: [MIT](LICENSE)
+- Original enclosure, circuit diagram, build documentation and released project photographs: [CC BY-NC-SA 4.0](LICENSE)
+- *Leotia viscosa* reference photograph by Alex Abair: [CC BY 4.0][cc-by]
+
+---
 
 All projects at [github.com/TikitaTolley][gh].
 
@@ -93,6 +106,9 @@ All projects at [github.com/TikitaTolley][gh].
 [tt]: https://tiktok.com/@tikitatech
 [ig]: https://instagram.com/tikitatech
 [gh]: https://github.com/TikitaTolley
+[portfolio]: https://tikitatech.xyz/projects/mushroom-led-keyring/
+[tinkercad]: https://www.tinkercad.com/things/bni5gjmEZWk-mushroom-leds
+[onshape]: https://cad.onshape.com/documents/bb2d524031b677eb6eb5ac94/w/c66be54d3ab91841cf2fdc67/e/091ab4f1d0745a42349ae6d5
 
 [yt-1]: https://www.youtube.com/shorts/RpJ-dfvH-7w
 [tt-1]: https://www.tiktok.com/@tikitatech/video/7672160859707247894
