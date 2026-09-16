@@ -10,8 +10,8 @@ for Liverpool MakeFest 2026.
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white)][ig]
 
 <p>
-  <a href="media/mushroom-enclosure.webp"><img src="media/mushroom-enclosure.webp" alt="Mushroom LED keyring inside its white printed enclosure" width="150"></a>
-  <a href="media/keyring-front-lit.jpg"><img src="media/keyring-front-lit.jpg" alt="Keyring lit up" width="150"></a>
+  <a href="media/mushroom-enclosure.webp"><img src="media/mushroom-enclosure.webp" alt="Mushroom LED keyring inside its white printed enclosure" height="180"></a>
+  <a href="media/keyring-front-lit.jpg"><img src="media/keyring-front-lit.jpg" alt="Keyring lit up" height="180"></a>
 </p>
 
 ## What it does
