@@ -2,8 +2,7 @@
 
 > Twelve LEDs, two coin cells and a switch, inside a 3D-printed mushroom keyring.
 
-The original circuit began as an early soldering project. I later designed and printed the enclosure
-for Liverpool MakeFest 2026.
+The original circuit began as an early soldering project. I later designed and printed the enclosure.
 
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)][yt]
 [![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white)][tt]
