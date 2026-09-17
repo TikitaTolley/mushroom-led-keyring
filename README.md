@@ -37,8 +37,6 @@ Eight green LEDs form the cap and four yellow LEDs form the stem. Slide the swit
 | 1 | Keyring hardware | Split ring | £0.30 | |
 | 44.79 g | Printed enclosure | PLA | £1.57 total | Slicer estimate, including brims |
 
-**Recorded parts and enclosure: about £4.53**, excluding the switch and shared LED/resistor kit. Prices use per-part costs from purchased packs; PLA is £0.035/g.
-
 ## Wiring
 
 Two cells in series supply 6 V. The six LED pairs connect in parallel, with the switch in battery positive.
